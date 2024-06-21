@@ -20,6 +20,7 @@ body{
     border: 1px solid #879dd4;
     background-color: #fafafa;
    margin: 5px;
+   height: 254vh;
 }
 
 .me-container{
@@ -30,7 +31,7 @@ body{
 }
 
 #me-img{
-    width: 80%;
+    width: 95%;
 }
 
 .my-name{
@@ -47,7 +48,6 @@ body{
 
 li{
     margin-top: 10px;
-    list-style: none;
 }
 
 .location>li>a{
@@ -60,7 +60,7 @@ li{
     display: flex;
     flex-direction: column;
     padding-left: 15px;
-    gap: 5px;
+    gap: 1px;
 }
 
 .github{
@@ -71,7 +71,7 @@ li{
  .location>li{
     width: 100%;
     display: flex;
-    gap: 8px;
+    gap: 5px;
     font-size: 15px;
     color: #2E447B;
     padding-left: 2px;
@@ -104,12 +104,14 @@ li{
 
 .skills>li{
         width: 93%;
-        gap: 8px;
         font-size: 15px;
         color: #2E447B;
         padding-left: 2px;
         overflow: wrap;
         padding-left: 5px;
+        line-height: 20px;
+        margin-top: 2px;
+    list-style: none;
 }
 
 main{
@@ -119,8 +121,8 @@ main{
 }
 
 h1, h2{
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 800;
+    font-size: 22px;
     font-style: italic;
     color: #2E447B;
 }
@@ -170,4 +172,12 @@ line-height: 5px;
 
 .amalitech>.list-header, .biseco>.list-header{
     font-weight: 600;
+}
+
+.education-icon{
+width: 25px;
+}
+
+.skills-icon{
+    width: 15px;
 }
