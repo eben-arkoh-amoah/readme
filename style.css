@@ -247,4 +247,7 @@ h2 {
     .work>.desc>.heading{
         line-height: 15px;
     }
+    .building-date{
+        line-height: 15px;
+    }
 }
