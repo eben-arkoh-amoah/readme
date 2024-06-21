@@ -11,7 +11,7 @@ body{
    flex-direction: row;
    align-items: flex-start;
    justify-content: flex-start;
-
+   color: #2E447B;
 }
 .about{
     width: 33%;
@@ -45,10 +45,14 @@ body{
     font-weight: 600;
 }
 
+li{
+    margin-top: 10px;
+    list-style: none;
+}
+
 .location>li>a{
     width: 85%;
     max-width: 200px;
-    background: #000;
 }
 
 .location, .skills{
@@ -106,4 +110,64 @@ body{
         padding-left: 2px;
         overflow: wrap;
         padding-left: 5px;
+}
+
+main{
+    width: 58%;
+    padding: 10px;
+    margin: auto;
+}
+
+h1, h2{
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    color: #2E447B;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+.brief{
+    font-size: 15px;
+    color: #2E447B;
+}
+
+.work{
+line-height: 5px;
+}
+
+.desc{
+    margin-left: -30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.work>li{
+    line-height: normal;
+    padding-top: 5;
+    font-weight: 300;
+}
+
+.heading{
+    list-style: none;
+    font-weight: 600;
+   
+}
+
+.education{
+    list-style: none;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.amalitech{
+    margin-top: -20px;
+}
+
+.amalitech>.list-header, .biseco>.list-header{
+    font-weight: 600;
 }
