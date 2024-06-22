@@ -25,7 +25,7 @@ body {
     border: 1px solid #879dd4;
     background-color: #fafafa;
     margin: 5px;
-    min-height: 270vh;
+    padding-bottom: 210px;
 }
 
 .me-container {
@@ -50,6 +50,10 @@ body {
 
 li {
     margin-top: 10px;
+}
+
+a{
+    line-height: 23px;
 }
 
 .location>li>a {
@@ -209,7 +213,7 @@ h2 {
 
    .about{
     box-shadow: none;
-    min-height: 240vh;
+    padding-bottom: 0px;
    }
 
     .about,
